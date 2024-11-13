@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente profesional y legible */
+    background-image: url('https://www.example.com/path/to/your/background-image.jpg'); /* Imagen de fondo atractiva */
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-attachment: fixed; /* La imagen de fondo permanece fija al hacer scroll */
+    margin: 0;
+    padding: 0;
+}
+
+.panel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px; /* Aumentar espacio interno */
+    max-width: 1000px; /* Aumentar ancho máximo */
+    margin: 40px auto; /* Añadir margen superior e inferior */
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px; /* Más espacio inferior */
+}
+
+h1 {
+    color: #2e7d32; /* Color verde oscuro */
+    font-weight: 700; /* Texto en negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 0.1em; /* Más espaciado entre letras */
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Disposición en línea */
+    justify-content: center; /* Centrado del contenido */
+    gap: 20px; /* Más espacio entre elementos */
+    margin-bottom: 30px; /* Más espacio inferior */
+}
+
+nav ul.menu li {
+    margin: 0; /* Sin margen adicional */
+}
+
+nav ul.menu li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #1b5e20; /* Color de texto verde oscuro */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s, background-color 0.3s; /* Transición suave de color y fondo */
+    padding: 20px 30px; /* Más espacio interno */
+    font-size: 1.2em; /* Tamaño de fuente más grande */
+    border-radius: 8px; /* Bordes más redondeados */
+    background-color: #e8f5e9; /* Fondo verde claro */
+}
+
+nav ul.menu li a:hover {
+    color: #388e3c; /* Color al pasar el mouse */
+    background-color: #c8e6c9; /* Fondo al pasar el mouse */
+}
+
+footer {
+    margin-top: 30px; /* Más espacio superior */
+    text-align: center; /* Centrado del texto */
+    font-size: 1em; /* Tamaño de fuente estándar */
+    color: #757575; /* Color gris para texto secundario */
+}
+
+.logout-btn {
+    color: white;
+    background-color: #1b5e20; /* Fondo verde oscuro */
+    padding: 15px 30px; /* Más espacio interno */
+    border-radius: 8px; /* Bordes más redondeados */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave de fondo */
+}
+
+.logout-btn:hover {
+    background-color: #2e7d32; /* Fondo al pasar el mouse */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Sin separación entre bordes */
+    margin: 30px 0; /* Más margen superior e inferior */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para efecto de profundidad */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Esquinas redondeadas efectivas */
+}
+
+table th, table td {
+    padding: 20px; /* Más espacio interno */
+    border: 1px solid #ddd; /* Borde gris claro */
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+table th {
+    background-color: #388e3c; /* Fondo verde oscuro */
+    color: white; /* Texto blanco */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 0.1em; /* Espaciado entre letras */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f0f5f1; /* Fondo para filas pares */
+}
+
+table tbody tr:hover {
+    background-color: #e8f5e9; /* Fondo al pasar el mouse */
+}
